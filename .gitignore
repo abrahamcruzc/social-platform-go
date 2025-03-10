@@ -1,0 +1,38 @@
+# Binarios y ejecutables
+/bin/
+/main
+
+# Archivos generados por Go
+/*.exe
+/*.test
+/*.prof
+
+# Directorio de dependencias
+/vendor/
+
+# Archivos de configuración local
+.env
+*.env
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de log
+*.log
+
+# Archivos de cobertura
+/coverage/
+
+# Archivos de módulos de Go
+go.sum
+go.mod
+
+# Archivos generados por herramientas de Go
+/go-build/
+/go-cache/
+
+# Archivos generados por pruebas
+/testdata/
